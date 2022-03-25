@@ -25,6 +25,6 @@
     "yorkie": "^2.0.0"
   },
   "gitHooks": {
-    "post-commit": "npm version patch"
+    "pre-push": "npm version patch"
   }
 }
