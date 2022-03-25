@@ -20,5 +20,11 @@
   },
   "dependencies": {
     "cross-spawn": "^7.0.3"
+  },
+  "devDependencies": {
+    "yorkie": "^2.0.0"
+  },
+  "gitHooks": {
+    "post-commit": "npm version patch"
   }
 }
